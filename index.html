@@ -51,16 +51,16 @@
               <h3>Random Number: </h3>
             </div>
             <div class="col-2" id="randomnumber">
-
+              
             </div>
             <div class="col-1">
 
             </div>
             <div class="col-3" id="score">
             <h4>
-              Wins:
+              Wins:<span id="wins"></span>
               <br>
-              Losses:
+              Losses:<span id="losses"></span>
             </h4>
             </div>
           </div>
@@ -68,18 +68,18 @@
 <br>
 <!--Row for Crystals-->
          <div class="row">
-                <div class="col-3" id="crystalone">
-                  <p>insert image of crystal</p>
+                <div class="col-3">
+                  <button type="button" class="crystal" id="crystalone">Crystal1</button>
                 </div>
-                <div class="col-3" id="crystaltwo">
-                    <p>insert image of crystal</p>
-                </div>
-                <div class="col-3" id="crystalthree">
-                <p>insert image of crystal</p>
-                </div>
-                <div class="col-3" id="crystalfour">
-                    <p>insert image of crystal</p>
-                </div>
+                <div class="col-3">
+                    <button type="button" class="crystal" id="crystaltwo">Crystal2</button>
+                  </div>
+                  <div class="col-3">
+                      <button type="button" class="crystal" id="crystalthree">Crystal3</button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="crystal" id="crystalfour">Crystal4</button>
+                      </div>
               </div>
     
 <br>
@@ -87,32 +87,11 @@
 <!--Row for Total Score-->
          <div class="row">
                 <div class="col-6" id="total">
-                  <h3>Your total score is:</h3>
+                  <h3>Your total score is:</h3><p id="userTotal"></p>
                   <br>
                 </div>
               </div>
 
-<script type="text/javascript">
-
-    $(document).ready(function() {
-
-//on click start the game by generating a random number
-$("#clicktoplay").on("click", function() {
-
-  //generate a random number
-  var random = Math.floor(Math.random() * 100) + 19;
-  console.log(random);
-
-  // place random number in random number div.
-  $("#randomnumber").text(random);
-
-});
-
-});
-            
-</script>
-
-              
-
 </body>
+<script src="assets/javascript/game.js"></script>
 </html>

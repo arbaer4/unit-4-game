@@ -13,7 +13,20 @@
     color: blueviolet;
 }
 
-#crystalone {
+#randomnumber {
+    font-size: 50px;
+}
+
+#crystalone, #crystaltwo, #crystalthree, #crystalfour {
+    height: 100px;
+    width: 100px;
+    background: silver; 
+    border-color: silver;
+    color: black;
+}
+
+
+/* #crystalone {
     background: orange;
     height: 150px;
 }
@@ -28,4 +41,4 @@
 
 #crystalfour {
     background: yellow;
-}
+} */
