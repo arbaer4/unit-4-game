@@ -1,0 +1,31 @@
+#randomnumbertitle, #total {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blueviolet;
+    color: blueviolet;
+    margin-left: 18px;
+}
+
+#score, #randomnumber {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+#crystalone {
+    background: orange;
+    height: 150px;
+}
+
+#crystaltwo {
+    background: blue;
+}
+
+#crystalthree {
+    background: green;
+}
+
+#crystalfour {
+    background: yellow;
+}
