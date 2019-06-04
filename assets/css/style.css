@@ -18,27 +18,26 @@
 }
 
 #crystalone, #crystaltwo, #crystalthree, #crystalfour {
-    height: 100px;
-    width: 100px;
-    background: silver; 
-    border-color: silver;
+    height: 120px;
+    width: 120px;
+    /* background: silver;  */
+    border-radius: 20px;
+    border: round;
     color: black;
 }
 
-
-/* #crystalone {
-    background: orange;
-    height: 150px;
+#crystalone {
+    background: rgb(210, 114, 230);
 }
 
 #crystaltwo {
-    background: blue;
+    background: rgb(52, 191, 226);
 }
 
 #crystalthree {
-    background: green;
+    background: rgb(156, 236, 156);
 }
 
 #crystalfour {
-    background: yellow;
-} */
+    background: rgb(148, 153, 152);
+}
